@@ -41,7 +41,7 @@ const ambientLight = new THREE.AmbientLight(0xffffff, 1); // Color: white, Inten
 scene.add(ambientLight);
 
 const loader = new GLTFLoader().setPath('public/kurabiye/');
-loader.load('kurabiye-2.gltf', (gltf) => {
+loader.load('pizza.gltf', (gltf) => {
   console.log(gltf);
   const mesh = gltf.scene;
 
